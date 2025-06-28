@@ -1,0 +1,1 @@
+number = "+xxxxxxxxxx"  # Replace with the actual phone number
