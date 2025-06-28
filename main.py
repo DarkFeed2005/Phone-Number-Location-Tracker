@@ -1,9 +1,11 @@
 import phonenumbers
 from phonenumbers import geocoder
-from test import number
+#from test import number
 import folium 
 
 key = "eb927c8c90184db5a9db0835499dd54a"  # Replace with your actual OpenCage API key
+
+number = input("enter the phone number with country code (e.g., +94xxxxxxxx): ")
 
 check_number = phonenumbers.parse(number)  
 number_location = geocoder.description_for_number(check_number, "en") 
